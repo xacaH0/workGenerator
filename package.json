@@ -1,0 +1,37 @@
+{
+  "name": "nft-art-generator",
+  "version": "1.0.2",
+  "description": "A tool to generate generative NFT art projects.",
+  "main": "bin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotLuksus/nft-art-generator.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "NotLuksus",
+  "license": "MIT",
+  "bin": {
+    "nft-generate": "bin/index.js"
+  },
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "canvas": "^2.9.1",
+    "chalk": "^4.1.2",
+    "cluster": "^0.7.7",
+    "dotenv": "^16.0.1",
+    "fs": "^0.0.1-security",
+    "image-data-uri": "^2.0.1",
+    "inquirer": "^3.3.0",
+    "merge-images": "^2.0.0",
+    "minimist": "^1.2.5",
+    "ora": "^5.4.1",
+    "os": "^0.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/NotLuksus/nft-art-generator/issues"
+  },
+  "homepage": "https://github.com/NotLuksus/nft-art-generator#readme"
+}

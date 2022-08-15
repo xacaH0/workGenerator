@@ -1,0 +1,1 @@
+In config.json for deploying to ipfs there should be correct URI set and other details.
